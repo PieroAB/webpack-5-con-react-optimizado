@@ -7,7 +7,7 @@ const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 module.exports = {
   // hot reload
   //entry: ['react-hot-loader/patch', './src/index.js'],
-  entry: { home: './src/index.js', header: './src/Header/index.js' },
+  entry: { home: './src/index.js', header: './src/header/index.js' },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
